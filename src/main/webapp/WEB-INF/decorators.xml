@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!-- Đường dẫn trỏ về master layout 
+	*Định nghĩa về master layout là 1 khung sườn:
+	header 
+	body: thay đổi tuỳ từng page
+	footer 
+	Và web và admin có master layout riêng  -->
+<decorators defaultdir="/decorators">
+	<!-- apply web template -->
+	<decorator name="web" page="web.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/quan-tri*</pattern>
+	</decorator>
+	<decorator name="login" page="/decorators/login.jsp">
+		<pattern>/dang-nhap</pattern>
+	</decorator>
+
+
+</decorators>

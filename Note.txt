@@ -1,0 +1,20 @@
+
+Lỗi field list: => Cho create lai các entity và insert lại dữ liệu
+ ** Resful:
+ - Công nghệ swagger làm trung gian để chuyển đổi API giữa front-end và back-end ( Gọi là mô tả API)
+ 
+ *Server side render và client side render là gì
+ 
+ {
+"title":"Ronaldo ghi bàn giúp Bồ Đào Nha ngược dòng hạ nhược tiểu Luxembourg",
+"shortDescription":"Luxembourg bất ngờ vượt lên dẫn trước chỉ sau 30 phút nhưng chung cuộc Bồ Đào Nha ngược dòng giành thắng lợi 3-1.",
+"content":"Luxembourg bất ngờ vượt lên dẫn trước chỉ sau 30 phút nhưng chung cuộc Bồ Đào Nha ngược dòng giành thắng lợi 3-1."
+
+
+
+}
+
+
+
+Lỗi cần lưu ý:
+Lỗi 405 không load được file boostrap là do lỗi đâu đó ở các phương thức put post
